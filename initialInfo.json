@@ -1,0 +1,85 @@
+{
+	"info": {
+		"_postman_id": "f44d701e-1c39-4e54-a85d-086a7a51280b",
+		"name": "Initial Info API",
+		"description": "Collection for the Initial Info API endpoint"
+	},
+	"item": [
+		{
+			"name": "Initial Info API",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer 6Cr_EvToBtNjfMk3Vm2wj6R5ghE"
+					}
+				],
+				"url": {
+					"raw": "https://www-qa3.mega-image.ro//adws/v2/mega-image.ro/experience/initialinfo/webmobile?lang=en",
+					"protocol": "https",
+					"host": [
+						"www-qa3",
+						"mega-image",
+						"ro"
+					],
+					"path": [
+						"adws",
+						"v2",
+						"mega-image.ro",
+						"experience",
+						"initialinfo",
+						"webmobile"
+					],
+					"query": [
+						{
+							"key": "lang",
+							"value": "en"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Initial Info Response",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer 6Cr_EvToBtNjfMk3Vm2wj6R5ghE"
+							}
+						],
+						"url": {
+							"raw": "https://www-qa3.mega-image.ro//adws/v2/mega-image.ro/experience/initialinfo/webmobile?lang=en",
+							"protocol": "https",
+							"host": [
+								"www-qa3",
+								"mega-image",
+								"ro"
+							],
+							"path": [
+								"adws",
+								"v2",
+								"mega-image.ro",
+								"experience",
+								"initialinfo",
+								"webmobile"
+							],
+							"query": [
+								{
+									"key": "lang",
+									"value": "en"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"body": "{\n" + "    \"configurationGroups\": {\n" + "        \"groups\": {\n" + "            \"product.remove.interceptor.enabled\": \"true\",\n" + "            \"feature.hide.recommended.wines.for.recipes.enabled\": \"true\",\n" + "            \"feature.password.policy.separate.allowed.chars.rule.enabled\": \"true\"\n" + "        }\n" + "    },\n" + "    \n" + "    \"googleMapsKeys\": {\n" + "        \"googleMapsApiKey\": \"AIzaSyDmRVNC0-nxLBBXGCHZIu79bCrM0rnwW6U\",\n" + "        \"googleMapsApiVersion\": \"3\",\n" + "        \"googleStaticMapsApiKey\": \"AIzaSyDmRVNC0-nxLBBXGCHZIu79bCrM0rnwW6U\"\n" + "    }\n" + "}"
