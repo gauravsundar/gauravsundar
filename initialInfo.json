@@ -1,18 +1,18 @@
 {
   "variables": [],
   "info": {
-    "name": "Petstore API",
-    "_postman_id": "c0bc3513-c83a-8b5d-bbff-1a4a0dc001d7",
-    "description": "version=1.0 - This is a PetStore API description",
+    "name": "InitialInfo API",
+    "_postman_id": "c0bc3513-c83a-8b5d-bbff-1a4a05c001d7",
+    "description": "version=1.0 - This is a InitialInfo API description",
     "schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
   },
   "item": [
     {
-      "name": "Initial Info API",
+      "name": "InitialInfo",
       "description": "",
       "item": [
         {
-          "name": "FInitial Info",
+          "name": "Initial Info",
           "request": {
             "method": "GET",
             "header": [
@@ -42,7 +42,10 @@
                   "key": "lang",
                   "value": "en"
                 }
-              ]
+              ],
+							"variable": [],
+              "body": {},
+              "description": ""
             }
           },
           "response": [
